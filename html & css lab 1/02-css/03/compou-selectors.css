@@ -1,0 +1,20 @@
+p.highlighted {
+    color: rgb(148, 247, 212);
+    font-size: 18px;
+}
+
+div#special {
+    background: orange;
+    box-shadow: 0 0.2em 0.3em 0 rgba(0, 0, 0, 0.1)
+}
+
+a[href^="http"] {
+    font-style: italic;
+    border-bottom: 1px orange;
+    color: orange;   
+}
+
+p.fancy.highlighted {
+    background-color: black;
+}
+

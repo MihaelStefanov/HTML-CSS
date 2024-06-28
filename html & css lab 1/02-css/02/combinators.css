@@ -1,0 +1,19 @@
+div p {
+    color: blue;
+}
+
+p + p {
+    background-color: #eee;
+}
+
+ul > li {
+    list-style-type: circle;
+}
+
+p ~ span {
+    font-weight: bold;
+}
+
+
+
+
