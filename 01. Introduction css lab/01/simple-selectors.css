@@ -1,0 +1,51 @@
+body {
+    background-color: #ffffff;
+}
+
+h2 {
+    font-style: oblique;
+}
+
+p + p {
+    background-color: #c9e7f0;
+}
+
+div p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    background-color: orange;
+}
+
+ul li {
+    list-style-type: circle;
+    background-color: aquamarine;
+}
+
+.main-title {
+    color: rgb(37, 170, 214);
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+#highlighted-paragraph {
+    display: inline-block;
+    border-radius: 2em;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: underline overline;
+    color: #dfff4f;
+    background-color: rgb(30, 30, 30);
+    overflow: hidden;
+}
+
+.special-word {
+    text-decoration-line: underline ;
+    color: rgb(37, 117, 215);
+}
+
+#lit-item-2 {
+    font-style: italic;
+    background-color: aqua;
+}
