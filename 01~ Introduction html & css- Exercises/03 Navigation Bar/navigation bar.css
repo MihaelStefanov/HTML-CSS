@@ -1,0 +1,7 @@
+.menu li a {
+    color: blue;
+}
+
+.menu a:hover {
+    color: #f4a261;
+}
