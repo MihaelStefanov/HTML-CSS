@@ -1,0 +1,28 @@
+body {
+    background-color: gainsboro;
+}
+
+header {
+    background-color: #eee;
+}
+
+main {
+    background-color: #eee;
+}
+
+aside {
+    background-color: #eee;
+
+}
+
+footer {
+    background-color: #eee;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: #f4a261;
+}
