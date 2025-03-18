@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.3 Lato, sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0.5em;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.card span {
+    display: block;
+}
+
+.card .title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+
+.card .content,
+.card .footer {
+    padding: 1.5em; 
+}
+
+.card .footer span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-style: italic;
+}
+
+.card .title:hover,
+.card .footer:hover {
+    color: orange;
+}
