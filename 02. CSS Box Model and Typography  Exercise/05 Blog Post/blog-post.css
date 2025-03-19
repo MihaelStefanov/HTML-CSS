@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    color: rgb(34, 33, 33);
+}
+
+
+.site {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 2px solid #eee;
+    padding: 1.5em;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+
+.site * {
+    margin-bottom: 1em;
+}
+
+.site header {
+    font-weight: bold;
+}
+
+.site section:nth-of-type(1) {
+    margin-bottom: 2.5em;
+}
+
+.site::after {
+    content: "Published on 20.03.2025 by Me";
+    display: block;
+    font-style: italic;
+    margin: 2em 0 1em 0;
+}
+
+ 
