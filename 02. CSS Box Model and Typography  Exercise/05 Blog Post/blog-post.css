@@ -11,8 +11,7 @@ html {
 
 
 .site {
-    width: 800px;
-    margin: 0 auto;
+    max-width: 800px;
     margin-top: 2em;
     border: 2px solid #eee;
     padding: 1.5em;
