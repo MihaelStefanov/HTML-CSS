@@ -41,9 +41,9 @@ form {
 .field {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1.5em;
+    margin-bottom: 1.3em;
 }
-
+ 
 input {
     width: 100%;
     display: block;
@@ -56,6 +56,8 @@ input[type="submit"] {
     border: 1px solid #ccc;
     border-radius: 0.3em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -30px 26px -28px inset;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 label {
@@ -75,4 +77,9 @@ label::after {
     font-family: 'Inter', sans-serif;
     margin-top: 0.3em;
     opacity: 0.6;
+}
+
+.field-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
