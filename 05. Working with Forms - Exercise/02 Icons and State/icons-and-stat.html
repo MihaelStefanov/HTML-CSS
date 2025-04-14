@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Icons and State</title>
     <link rel="stylesheet" href="icons-and-stat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     
@@ -14,19 +15,25 @@
         <fieldset>
 
             <p class="field">
+             <div class="field-wrapper">
+                 <label for="register-email">Email</label>
+                 <i class="fa-solid fa-envelope"></i>
+             </div>
                 <input type="email" id="register-email">
-                <label for="register-email">Email</label>
                 <small class="hint">example: mishothebest30@gmail.com</small>
             </p>
 
             <p class="field">
+                <div class="field-wrapper">
+                    <label for="register-pass">Password</label>
+                    <i class="fa-solid fa-key"></i>
+                </div>
                 <input type="text" id="register-pass">
-                <label for="register-pass">Password</label>
                 <small class="hint">minimum 6 characters, letters and numbers, at least 1 special character</small>
             </p>
             
             <input type="submit" value="Login">
-
+            
         </fieldset>
     </form>
 
