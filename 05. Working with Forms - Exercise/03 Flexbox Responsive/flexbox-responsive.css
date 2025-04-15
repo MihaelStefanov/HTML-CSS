@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html {
+html, input {
     font: 14px/1.5 Lato, sans-serif;
 }
 
