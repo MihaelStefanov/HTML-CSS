@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body {
+    padding: 2em;
+    background-color: #eee;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    flex: 0 1 600px;
+    background: white;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+form ul {
+    margin-top: 1em;
+}
+
+form ul:not(:last-child) {
+    margin-bottom: 2.5em;
+}
+
+form ul li {
+    list-style: none outside;
+    display: flex;
+    gap: 0.5em;
+}
