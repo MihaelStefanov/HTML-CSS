@@ -26,15 +26,51 @@ form {
 }
 
 form ul {
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 form ul:not(:last-child) {
     margin-bottom: 2.5em;
 }
 
+form ul > li + li {
+    margin-top: 1em;
+}
+
+
+
 form ul li {
     list-style: none outside;
     display: flex;
+    align-items: center;
     gap: 0.5em;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    appearance: none;
+}
+
+form input[type="radio"] {
+width: 1.5em;
+border-radius: 50%;
+aspect-ratio: 1/1;
+background: #eee;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px splid #ccc;
+}
+
+form input[type="radio"]::before {
+    display: none;
+    content: '';
+    width: 1em;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background: orange;
+}
+
+form input[type="radio"]:checked::before {
+    display: block;
 }
