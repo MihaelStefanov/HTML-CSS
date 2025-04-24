@@ -44,6 +44,7 @@ form ul li {
     display: flex;
     align-items: center;
     gap: 0.5em;
+    padding-left: 0.5em;
 }
 
 form input[type="radio"],
@@ -55,22 +56,81 @@ form input[type="radio"] {
 width: 1.5em;
 border-radius: 50%;
 aspect-ratio: 1/1;
-background: #eee;
+background: white;
 display: flex;
 align-items: center;
 justify-content: center;
-border: 1px splid #ccc;
+border: 1px solid #ccc;
 }
 
 form input[type="radio"]::before {
-    display: none;
+    display: block;
+    content: '';
+    width: 0.8em;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background: orange;
+    opacity: 0;
+    transform: translateX(0);
+    transition: 
+    opacity 0.3s ease-in,
+    transform 0.3s ease-in-out;
+}
+
+form input[type="radio"]:checked::before {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+form label {
+    cursor: pointer;
+}
+
+form label:hover {
+    text-decoration: underline;
+}
+
+form input[type="radio"]:checked ~ label {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+form input[type="radio"]:checked ~ label:checked {
+    text-decoration: none;
+    cursor: default;
+}
+
+form input[type="checkbox"] {
+    width: 3em;
+    border-radius: 2em;
+    aspect-ratio: 2/1;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+    padding: 0.2em;
+    transition: border-color 0.3s ease-in,
+    backround-color 0.3s ease-in;
+}
+
+form input[type="checkbox"]:checked {
+    border-color: orange;
+    background-color: rgb(245, 210, 146);
+}
+
+form input[type="checkbox"]::before {
+    display: block;
     content: '';
     width: 1em;
     border-radius: 50%;
     aspect-ratio: 1/1;
     background: orange;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out; 
 }
-
-form input[type="radio"]:checked::before {
-    display: block;
+    
+form input[type="checkbox"]:checked::before {
+    opacity: 1;
+    transform: translateX(1.5em);
 }
