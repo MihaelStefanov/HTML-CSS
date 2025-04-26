@@ -23,8 +23,9 @@ form {
     margin: 0 auto;
     background-color: #24333C ;
     color: aliceblue;
-    padding: 4em;
+    padding: 4rem;
     border-radius: 0.4em;
+    font-size: 1.4em;
 }
 .nav {
     display: flex;
@@ -71,7 +72,7 @@ form h2 {
     width: 100%;
     border: 1px solid #A0B3B0;
     background-color: transparent;
-    padding: 0.6em 0.8em;
+    padding: 0.3em 0.5em;
     line-height: 1;
     outline: none;
 }
@@ -81,7 +82,7 @@ form h2 {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 0.6em 0.8em;
+    padding: 0.3em 0.5em;
     color: #8D999A;
 }
 
@@ -111,12 +112,3 @@ form input[type="submit"] {
 .flex .field {
     flex: 1 1 auto;
 }
-
-
-
-
-
-
-
-
-
