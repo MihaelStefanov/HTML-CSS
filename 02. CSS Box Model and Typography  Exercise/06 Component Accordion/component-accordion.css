@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    color: rgb(34, 33, 33);
+}
+
+body {
+    padding: 2em;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.accordion {
+    border: 1px solid #ccc;
+}
+
+section {
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+section summary {
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+}
+
+details p {
+    padding: 1em 0;
+}
+
+p + p {
+    padding-top: 0em;
+}
+
+
+
