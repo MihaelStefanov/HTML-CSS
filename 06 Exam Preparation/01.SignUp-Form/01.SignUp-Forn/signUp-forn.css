@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Kode Mono", monospace;
+}
+
+body, input, select, option, button {
+    font: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #24333C;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3em;
+    box-shadow: -1px 15px 38px 23px rgba(0,0,0,0.06);
+    -webkit-box-shadow: -1px 15px 38px 23px rgba(0,0,0,0.06);
+    -moz-box-shadow: -1px 15px 38px 23px rgba(0,0,0,0.06);
+}
+
+input {
+    display: block;
+    padding: 0.6em;
+    background-color: #24333C;
+    border: 1px solid #ccc;
+    color: white;
+    outline: none;
+}
+
+label {
+    color: #ccc;
+    position: absolute;
+    left: 1em;
+    bottom: 0.1em;
+    font-size: 1.3em;
+}
+
+header menu {
+    display: flex;
+    justify-content: center;
+}
+
+#sing-up,
+#log-in {
+    padding: 1em;
+    /* padding-left: 4em;
+    padding-right: 4em; */
+    font-size: 1.4em;
+    /* width: 100%; */
+    margin-bottom: 2em;
+    border: none;
+    background-color: #435359;
+    flex: 1 1 100%;
+}
+
+#sing-up {
+    background-color: #1AB188;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 1em;
+    font-size: 2em;
+    display: block;
+    max-width: 100%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    /* background-color: purple; */
+    position: relative;
+}
+
+.field-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5em;
+    /* padding: 1em; */
+    margin-bottom: 3em;
+    /* width: 100%; */
+}
+
+.field-names .field {
+    width: 100%;
+}
+
+#last-name,
+#last-name {
+    flex: 1 1 auto;
+}
+
+label {
+    order: -1;
+}
+
+form > .field + .field {
+    margin-top: 3em;
+}
+
+input[type="submit"] {
+    margin-top: 1.2em;
+    /* padding-left: 4em;
+    padding-right: 4em; */
+    font-size: 2.5em;
+    font-weight: bold;
+    background-color: #1AB188;
+}
+
+label::after {
+    content: "*";
+    color: #1AB188;
+    font-size: 1.2em;
+    padding-left: 0.1em;
+}
+
+input:focus {
+    /* border: 2px solid #179A77; */
+    border-color: #179A77;
+}
+
+
+
+
+
+@media (hover: hover) {
+    #log-in:hover {
+        background-color: #179A77;
+    }
+}
+
+
+
+
+
+
