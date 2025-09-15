@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 14px; */
+    font: 18px/1.5 "PT Sans", sans-serif;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* display: none; */
+}
+
+.section-header {
+    background-image: url("images/background.jpg");
+    background-position: center -16.4em;
+    background-repeat: no-repeat;
+    background-size: 1920px auto;
+    height: 745px;
+    align-items: center;
+
+    /* background-color: #ddd; */
+}
+
+.section-header .wrapper .main-nav {
+    width: 1300px;
+    justify-content: space-between;
+    margin-top: 2.5em;
+}
+
+.section-header .wrapper .main-nav nav {
+    align-content: center;
+}
+
+.header-text {
+    width: 60%;
+    font-size: 32px;
+    /* margin-top: 2em; */
+}
+
+.header-text > * + * {
+    margin-top: 1em;
+}
+
+.section-header .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section .wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    /* align-content: center; */
+    /* justify-content: center; */
+    text-align: center;
+
+}
+
+.section .wrapper > * + * {
+    margin-top: 3.5em;
+}
+
+.logo {
+    /* background-color: aqua; */
+    width: 8em;
+    height: auto;
+}
+
+.button {
+    background-color: #E7EEF0;
+    color: #686666;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: block;
+    list-style: none;
+}
+
+nav ul a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.section-catalog01,
+.section-catalog02 {
+    background-color: #60ACC1;
+    padding: 2em;
+}
+
+.flex-columns {
+    display: flex;
+}
+
+.flex-columns.c01 {
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 15em; */
+    justify-content: space-evenly;
+}
+
+.flex-columns.c01 article {
+    display: flex;
+    background-color: #ffff;
+    /* width: 25%; */
+    width: 40em;
+    height: 20em;
+    /* IDK ;-; */
+   box-shadow: 0px -1px 17px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -1px 17px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 17px -3px rgba(0,0,0,0.75);
+    
+}
+
+.flex-columns.c01 article > * {
+    flex: 0 0 50%;
+}
+
+.flex-columns.c01 article .media {
+    overflow: hidden;
+    position: relative;
+}
+
+.flex-columns.c01 article img {
+    width: auto;
+    height: 100%;
+    position: absolute;
+}
+
+.flex-columns.c01 article section {
+    padding: 3em 1.5em;
+}
+
+.flex-columns.c01 article section * + * {
+    margin-top: 0.5em;
+}
+
+.section-furnitures .wrapper article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4em;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 25%;
+}
+
+.item > * + * {
+    margin: 0.3em;
+
+}
+
+.section-furnitures .wrapper article .item img {
+    width: 8em;
+    height: 8em;
+}
+
+.section-catalog02 .flex-columns.c02 .media {
+    width: 25%;
+    height: 100%;
+    box-shadow: 0px -1px 17px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -1px 17px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 17px -3px rgba(0,0,0,0.75);
+}
+
+.section-catalog02 .flex-columns.c02 {
+    gap: 7em;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.section-about .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.section-about .wrapper > * {
+    max-width: 45%;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.section-footer {
+    background-color: #2D333C;
+    color: #DDD;
+    padding: 1em;
+}
+
+
