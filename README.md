@@ -1,7 +1,7 @@
 # HTML-CSS
 <p align="center">
   <a href="https://softuni.bg/trainings/3133/js-fundamentals-september-2020">
-    <img src="https://softuni.bg/files/courses/html_css12.jpg" />
+    <img src="https://softuni.bg/files/courses/html_css12.jpg"/>
 " />
   </a>
 <p>
